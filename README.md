@@ -22,3 +22,7 @@ Any of the [list style types](https://developer.mozilla.org/en-US/docs/Web/CSS/l
 -   `{1}`: decimal (default, though this may not be the case in your theme)
 
 The list style cannot be changed mid-list, or by setting it in any element but the first.
+
+## Gotchas
+
+On mobile, sub lists may take on their parent type by default. This can be corrected by manually setting it back to the default, or whichever style type you prefer.
