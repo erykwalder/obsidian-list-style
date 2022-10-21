@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"name": "list-style",
+	"version": "0.1.0",
+	"description": "Set ordered list style inline in Obsidian.md. Alphabetic lists, roman numeral lists, etc.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",

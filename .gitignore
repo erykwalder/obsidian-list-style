@@ -1,22 +1,14 @@
-# vscode
-.vscode 
-
-# Intellij
-*.iml
-.idea
-
 # npm
 node_modules
+package-lock.json
+yarn.lock
 
-# Don't include the compiled main.js file in the repo.
-# They should be uploaded to GitHub releases instead.
+# build
 main.js
-
-# Exclude sourcemaps
-*.map
+*.js.map
 
 # obsidian
 data.json
 
-# Exclude macOS Finder (System Explorer) View States
-.DS_Store
+# mac
+.DS_STORE
